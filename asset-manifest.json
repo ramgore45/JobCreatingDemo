@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ramgore45/JobCreatingDemo/static/css/main.e3ef0abf.css",
+    "main.js": "/ramgore45/JobCreatingDemo/static/js/main.a8fe7c2d.js",
+    "index.html": "/ramgore45/JobCreatingDemo/index.html",
+    "main.e3ef0abf.css.map": "/ramgore45/JobCreatingDemo/static/css/main.e3ef0abf.css.map",
+    "main.a8fe7c2d.js.map": "/ramgore45/JobCreatingDemo/static/js/main.a8fe7c2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3ef0abf.css",
+    "static/js/main.a8fe7c2d.js"
+  ]
+}
