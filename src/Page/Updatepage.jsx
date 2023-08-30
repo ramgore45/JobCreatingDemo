@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { Updateone } from '../Components/Updateone'
-import { Updatetwo } from '../Components/Updatetwo'
+import { Formone } from '../Components/Formone'
+import { Formtwo } from '../Components/Formtwo'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import { toast } from 'react-hot-toast'
@@ -43,7 +43,7 @@ export const Updatepage = () => {
       {step ? 
       
       (<div className="w-[500px] h-[500px] flex flex-col rounded-lg border-2 gap-y-8 p-5 relative" >
-          <Updateone />
+          <Formone />
           
             <button className="bg-blue-500 w-fit p-[10px] rounded-lg text-white 
             hover:scale-110 transition duration-300 ease shadow-md " 
@@ -56,7 +56,7 @@ export const Updatepage = () => {
        ):
        (
         <div className="w-[500px] h-[500px] flex flex-col rounded-lg border-2 gap-y-8 p-5 relative" >
-          <Updatetwo />
+          <Formtwo />
         <div className='flex gap-x-5 absolute bottom-0 right-0  p-5 '>
           <button className="bg-blue-500 w-fit p-[10px] rounded-lg text-white 
           hover:scale-110 transition duration-300 ease shadow-md" 
